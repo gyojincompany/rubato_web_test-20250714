@@ -1,11 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
+/* header {
     border: 1px solid red;
-}
+} */
 
 #index_page {
     width: 1000px;
@@ -14,7 +9,7 @@ header {
 
 #logo {
     float: left;
-    margin: 15px 15px 15px 20px;
+    margin: 15px 15px 0px 20px;
 }
 
 #moto {
@@ -31,14 +26,21 @@ header {
     display: inline;
 }
 
+#top_navi {
+    margin: 25px 0 0 0;
+}
+
 #top_navi li {
     display: inline;
 }
 
 .line {
     border-top: 1px solid #cccccc;
+    margin: 25px 0 0 0;
+
 }
 
-.clear {
-    clear: both;
+li.menu_item {
+    margin: 0 0 0 40px;
 }
+
