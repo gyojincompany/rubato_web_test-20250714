@@ -7,6 +7,7 @@
     margin: 0 auto; /* 가운데 정렬 */
 }
 
+/* Header */
 #logo {
     float: left;
     margin: 15px 15px 0px 20px;
@@ -44,3 +45,14 @@ li.menu_item {
     margin: 0 0 0 40px;
 }
 
+/* main */
+#banner ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+#banner {
+    height: 110px;
+    background-color: #00a8ab;
+    margin-top: 5px;
+}
