@@ -46,6 +46,8 @@ li.menu_item {
 }
 
 /* main */
+
+/* article */
 #banner ul li {
     display: inline;
     margin-left: 30px;
@@ -121,5 +123,33 @@ li.menu_item {
     /* border: 1px solid red; */
     margin-top: 20px;
     margin-left: 30px;
+}
+
+/* sitemap section */
+#sitemap {
+    /* border:1px solid blue; */
+    padding: 20px 0 0 15px;
+}
+
+#sitemap div {
+    height: 140px;
+    float: left;
+    /* border: 1px solid red; */
+    margin: 0 10px 0 10px;
+}
+
+#sitemap li {
+    list-style-image: url("../images/blue_dot.gif");
+    margin: 5px 0 0 20px;
+}
+
+#sitemap h3 {
+    font-size: 15px;
+    color: #059092;
+    margin-left: 15px;
+}
+
+#sitemap ul {
+    color: #666666;
 }
 
